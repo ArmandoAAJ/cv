@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   about:
     "Front-end development focado na construção de produtos com atenção especial aos detalhes.",
   summary:
-    "Como Desenvolvedor Frontend tive o sucesso em atuar em diversos produtos, desde a fase incial até a implementação. Atualmente, trabalho principalmente com TypeScript, React, React Native. Possuo mais de 5 anos de experiência em trabalhar remotamente com empresas do Brasil.",
+    "Como Desenvolvedor Frontend tive o sucesso em atuar em diversos produtos, desde a fase inícial até a implementação. Atualmente, trabalho principalmente com TypeScript, React, React Native. Possuo mais de 5 anos de experiência em trabalhar remotamente com empresas do Brasil.",
   avatarUrl: "https://avatars.githubusercontent.com/u/7575325?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
