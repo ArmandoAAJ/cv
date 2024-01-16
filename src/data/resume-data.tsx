@@ -103,6 +103,21 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "ArmandoAAJ",
+      techStack: [
+        "TypeScript",
+        "Next.js",
+        "Shadcn/ui",
+        "TailwindCss",
+        "Vercel",
+      ],
+      description: "Currículo online.",
+      link: {
+        label: "Armando Arlan Joergensen",
+        href: "https://armandoaaj.vercel.app/",
+      },
+    },
+    {
       title: "Peruzzo Supermercados - 9bits",
       techStack: ["React Native", "React", "TypeScript"],
       description: "Eccomerce de supermercado.",
