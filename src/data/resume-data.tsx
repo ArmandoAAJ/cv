@@ -70,7 +70,7 @@ export const RESUME_DATA = {
     {
       company: "9bits Soluções Web e Mobile",
       link: "https://www.instagram.com/9bitsapps/",
-      badges: ["Remoto", "2 ano e 7 meses"],
+      badges: ["Remoto", "2 anos e 7 meses"],
       title: "Desenvolvedor Frontend Mobile Pleno",
       start: "2019",
       end: "2021",
