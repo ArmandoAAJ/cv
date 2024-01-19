@@ -10,7 +10,6 @@ export const RESUME_DATA = {
   summary:
     "Como Desenvolvedor Frontend tive o sucesso em atuar em diversos produtos, desde a fase inícial até a implementação. Atualmente, trabalho principalmente com TypeScript, React, React Native. Possuo mais de 5 anos de experiência em trabalhar remotamente com empresas do Brasil.",
   avatarUrl: "https://avatars.githubusercontent.com/u/7575325?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "armando-a-j@hotmail.com",
     tel: "+55 49 991967878",
@@ -50,7 +49,7 @@ export const RESUME_DATA = {
     {
       company: "Dasa",
       link: "https://dasa.com.br/",
-      badges: ["Remoto", "Emprego atual"],
+      badges: ["Remoto", "1 ano e 4 meses"],
       title: "Desenvolvedor Frontend Web|Mobile Senior",
       start: "2022",
       end: "2024",
