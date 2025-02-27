@@ -33,10 +33,10 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "UNOESC - Universidade do Oeste de Santa Catarina",
-      degree: "Bacharelado em Ciência da Computação",
-      start: "2014",
-      end: "2017",
+      school: "ILSC Education Group - Vancouver",
+      degree: "English School",
+      start: "2024 - Junho",
+      end: "2025 - Janeiro",
     },
     {
       school: "Rocketseat",
@@ -44,8 +44,24 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2020",
     },
+    {
+      school: "UNOESC - Universidade do Oeste de Santa Catarina",
+      degree: "Bacharelado em Ciência da Computação",
+      start: "2014",
+      end: "2017",
+    },
   ],
   work: [
+    {
+      company: "Lighthouse",
+      link: "https://lighthouseit.com.br/",
+      badges: ["Remoto"],
+      title: "Desenvolvedor Frontend Web|Mobile",
+      start: "2024",
+      end: "Emprego Atual",
+      description:
+        "Desenvolvimento de aplicativos móveis para o setor de varejo utilizando React Native, com foco em alto desempenho e usabilidade. Gerenciamento completo do processo de deploy automatizado para as lojas iOS e Android por meio de pipelines no GitLab. Colaboração ativa com o cliente para identificar e implementar soluções de melhoria no desempenho, na experiência do usuário e na funcionalidade do aplicativo.",
+    },
     {
       company: "Dasa",
       link: "https://dasa.com.br/",
@@ -80,6 +96,7 @@ export const RESUME_DATA = {
   skills: [
     "JavaScript",
     "TypeScript",
+    "React Native",
     "React/Next.js",
     "Node.js",
     "GraphQL",
@@ -93,27 +110,29 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Pedidos Summit",
+      techStack: [
+        "React Native",
+        "TypeScript",
+        "Firebase",
+        "Expo",
+        "GitLab",
+        "Tanstack",
+      ],
+      description:
+        "Eccomerce para gerenciamento de controle de pedidos dos representantes.",
+      link: {
+        label: "Pedidos Summit",
+        href: "https://apps.apple.com/br/app/pedidos-summit/id6480311518?l=en-GB",
+      },
+    },
+    {
       title: "Nav - Dasa",
       techStack: ["React Native", "React", "TypeScript", "GraphQL", "Firebase"],
       description: "Seu assistente de saúde pra toda a vida.",
       link: {
         label: "Dasa",
         href: "https://nav.dasa.com.br/",
-      },
-    },
-    {
-      title: "ArmandoAAJ",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Shadcn/ui",
-        "TailwindCss",
-        "Vercel",
-      ],
-      description: "Currículo online.",
-      link: {
-        label: "Armando Arlan Joergensen",
-        href: "https://armandoaaj.vercel.app/",
       },
     },
     {
@@ -143,5 +162,21 @@ export const RESUME_DATA = {
         href: "https://www.oraculumsports.com/",
       },
     },
+    {
+      title: "ArmandoAAJ",
+      techStack: [
+        "TypeScript",
+        "Next.js",
+        "Shadcn/ui",
+        "TailwindCss",
+        "Vercel",
+      ],
+      description: "Currículo online.",
+      link: {
+        label: "Armando Arlan Joergensen",
+        href: "https://armandoaaj.vercel.app/",
+      },
+    },
   ],
 } as const;
+
